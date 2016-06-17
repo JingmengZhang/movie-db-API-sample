@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+	height: 30px;
+	background-color: black;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    color: #484949;
+    line-height: 18px;
+}
+
+hr {
+	margin-top: -10px;
+	border-color: #cccccc;
+}
+
+.div-l {
+	padding: 20px;
+	max-height: 1200px;
+    background-color: #f0f0f0;
+    background: -webkit-linear-gradient(#f0f0f0, white);
+    background: -o-linear-gradient(#f0f0f0, white);
+    background: -moz-linear-gradient(#f0f0f0, white);
+    background: linear-gradient(#f0f0f0, white);
+}
+
+.sec-r {
+	padding: 20px;
+	-webkit-box-shadow: -5px 0px 5px #cccccc;
+	-o-box-shadow: -5px 0px 5px #cccccc;
+	-moz-box-shadow: -5px 0px 5px #cccccc;
+	box-shadow: -5px 0px 5px #cccccc;
+}
+
+h1.txt-h1 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 24px;
+	color: #1A9DBA;
+}
+
+h2.txt-h2 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+span.txt-spn {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.div-container {
+	text-align: left;
+}
+
+.div-container .icon {
+	width: 135px;
+	display: inline-block;
+	margin: 3%;
+	vertical-align: text-top;
+	text-align: center;
+	padding-left: -20px;
+}
+
+.img-m-circ {
+	width: 122px;
+	height: 122px;
+	-webkit-border-radius: 100%;
+	-0-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+}
+
+.focus {
+	color: #1A9DBA;
+}
+
+.focuscirc {
+	/* border-radius */
+	-webkit-border-radius: 100%;
+	-o-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	/* box-shadow */
+	-webkit-box-shadow: 0 0 0 9px #1A9DBA;
+	-o-box-shadow: 0 0 0 9px #1A9DBA;
+	-moz-box-shadow: 0 0 0 9px #1A9DBA;
+	box-shadow: 0 0 0 9px #1A9DBA;
+}
+
+.img-post {
+	width: 174px;
+	height: 262px;
+}
+
+.img-cast-circ {
+	width: 66px;
+	height: 66px;
+	-webkit-border-radius: 100%;
+	-o-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	float: left;
+	margin: 4px 10px 4px 0;
+}
+
+.focuscast {
+	/* border-radius */
+	-webkit-border-radius: 100%;
+	-o-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	/* box-shadow */
+	-webkit-box-shadow: 0 0 0 5px #1A9DBA;
+	-o-box-shadow: 0 0 0 5px #1A9DBA;
+	-moz-box-shadow: 0 0 0 5px #1A9DBA;
+	box-shadow: 0 0 0 5px #1A9DBA;
+}
+
+article.div-article {
+	margin-top: -20px;
+}
+.img-cast {
+	width: 347px;
+	height: 420px;
+}
+
+.div-container .cast-info {
+	width: 350px;
+	display: inline-block;
+}
