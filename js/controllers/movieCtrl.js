@@ -56,7 +56,6 @@ app.controller('movieCtrl', function($scope, movies) {
 
 		var stars = [];
 		var castList = scope.movies[scope.selected].cast;
-		console.log(castList);
 		for (var key in castList) {
 			if (stars.length < 4) {
 				stars.push(castList[key].name);
